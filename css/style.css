@@ -1,0 +1,229 @@
+/* Version: 1.2
+Author: @soevielofficial
+Github: https://github.com/soevielofficial
+E-mail: soevielofficial@gmail.com/tarikhputrasanjaya@students.amikom.ac.id */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #36393F;
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.loading-process {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.sidebar {
+    list-style: none;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #202225;
+    padding-top: 20px;
+}
+.sidebar a {
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffff;
+    display: block;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+}
+.sidebar a:hover {
+    color: #B9BBBE;
+}
+h1 {
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-shadow: -10px 10px 20px 0px #202225;
+}
+#home, #about, #skills {
+    height: 100%;
+    margin-left: 160px;
+}
+.profile {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    box-shadow: -10px 10px 20px 0px #202225;
+    background: #2F3136;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+.profile p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.avatar {
+    padding: 35px 0 35px 0;
+    width: 175px;
+    height: 175px;
+}
+.discord {
+    width: 350px;
+    height: auto;
+    /* padding: 10px 0 10px 0; */
+}
+.logo  {
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    font-size: 2.5em;
+}
+.fa-brands {
+    color: white;
+}
+.about, .skills {
+    width: 1200px;
+    height: 600px;
+    box-shadow: -10px 10px 20px 0px #202225;
+    background: #2F3136;
+    border-radius: 5px;
+    margin: auto;
+}
+.intro p {
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.text {
+    margin: auto;
+    width: 800px;
+    height: 450px;
+    padding: 35px;
+}
+.text p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+.text img {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.language {
+    width: 1000px;
+    height: 150px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.language img {
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+}
+.skill-cpp, .skill-javascript, .skill-javascript, .skill-css, .skill-html {
+    padding: 20px;
+}
+.progress-c {
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right,#1A4A73 13%,#151b24 13%);
+    margin: auto;
+    border-radius: 2px;
+    display: block;
+}
+.progress-javascript {
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right,#F0DB4F 20%,#151b24 20%);
+    margin: auto;
+    border-radius: 2px;
+    display: block;
+}
+.progress-python-5 {
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right,#366D9B 35%,#151b24 35%);
+    margin: auto;
+    border-radius: 2px;
+    display: block;
+}
+.progress-css {
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right,#1C88C7 45%,#151b24 45%);
+    margin: auto;
+    border-radius: 2px;
+    display: block;
+}
+.progress-html {
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right,#EF652A 45%,#151b24 45%);
+    margin: auto;
+    border-radius: 2px;
+    display: block;
+}
+.video {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
