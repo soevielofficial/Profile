@@ -3,6 +3,7 @@
 # Assets Source
 
 Image Background Source: [Wallpapper Engine](https://steamcommunity.com/sharedfiles/filedetails/?id=2795211854)
+Image Profile: [Fenrir](https://www.bilibili.com/video/BV1N24y1f7h8/)
 
 # Terms of Use
 
