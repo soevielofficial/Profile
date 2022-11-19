@@ -1,5 +1,3 @@
-# Static Web Profile
-
 # Assets Source
 
 Image Background Source: [Wallpapper Engine](https://steamcommunity.com/sharedfiles/filedetails/?id=2795211854)
