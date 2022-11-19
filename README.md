@@ -1,4 +1,7 @@
 <h1 align="center">Simple Web Profile<h1>
+<p align="center" width="100%">
+    <img height="175px" src="https://i.imgur.com/W6mUoiN.png" alt="profile">
+</p>
 
 # Assets Source
 
