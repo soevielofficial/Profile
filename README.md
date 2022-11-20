@@ -1,5 +1,5 @@
 <h1 align="center">Simple Web Profile<h1>
-<p style="border-radius: 5px" align="center" width="100%">
+<p align="center" width="100%">
     <img height="175px" src="https://i.imgur.com/W6mUoiN.png" alt="profile">
 </p>
 
