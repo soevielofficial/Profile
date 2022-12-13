@@ -26,6 +26,12 @@ html, body {
     -webkit-animation: fadein 2s;
     -o-animation: fadein 2s;
 }
+.loading-process-discord{
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+}
 @keyframes fadein {
     from {
         opacity:0;
@@ -107,9 +113,9 @@ h1 {
     background: #2F3136;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 .profile p {
     margin: 0;
@@ -127,8 +133,12 @@ h1 {
 }
 .logo  {
     padding: 15px;
-    margin: 20px 0 20px 0;
+    margin: 0px 0 20px 0;
     font-size: 2.5em;
+}
+.logo p {
+    letter-spacing: 1px;
+    font-size: 20px;
 }
 .fa-brands {
     color: white;
@@ -141,9 +151,8 @@ h1 {
     border-radius: 5px;
     margin: auto;
 }
-.intro p {
+.intro h3 {
     margin: 0;
-    font-weight: 600;
     letter-spacing: 1px;
     padding: 30px;
     text-align: center;
@@ -156,7 +165,6 @@ h1 {
     padding: 35px;
 }
 .text p {
-    font-weight: 600;
     letter-spacing: 1px;
     color: white;
     text-align: center;
