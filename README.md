@@ -6,7 +6,7 @@
 # Assets Source
 
 <!-- Image Background Source: [Wallpapper Engine](https://steamcommunity.com/sharedfiles/filedetails/?id=2795211854)<br> -->
-Image Profile: [Fenrir](https://www.toweroffantasy-global.com/images/Lin-a.jpg)
+Image Profile: [Lin](https://www.toweroffantasy-global.com/images/Lin-a.jpg)
 
 # Terms of Use
 
