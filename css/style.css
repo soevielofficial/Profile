@@ -119,10 +119,10 @@ h1 {
 }
 .profile p {
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .avatar {
-    padding: 35px 0 35px 0;
+    padding: 30px 0 30px 0;
     width: 175px;
     height: 175px;
 }
@@ -133,7 +133,7 @@ h1 {
 }
 .logo  {
     padding: 15px;
-    margin: 0px 0 20px 0;
+    margin: 0;
     font-size: 35px;
 }
 .logo p {
@@ -147,15 +147,12 @@ h1 {
     color: white;
 }
 .about {
-    width: 1200px;
+    width: 500px;
     height: 600px;
     box-shadow: -10px 10px 20px 0px #202225;
     background: #2F3136;
     border-radius: 5px;
     margin: auto;
-}
-.column {
-    margin-left: 160px;
 }
 .skills{
     width: 500px;
@@ -163,27 +160,19 @@ h1 {
     box-shadow: -10px 10px 20px 0px #202225;
     background: #2F3136;
     border-radius: 5px;
-    float: left;
+    margin: auto;
 }
-.project {
-    width: 500px;
-    height: 600px;
-    box-shadow: -10px 10px 20px 0px #202225;
-    background: #2F3136;
-    border-radius: 5px;
-    float: right;
-    margin-right: 160px;
-} 
-.intro h3 {
-    margin: 0;
-    letter-spacing: 1px;
-    padding: 25px;
+.intro-h3, .language-h3, .project-h3 {
+    letter-spacing: 2px;
     text-align: center;
+    font-size: 20px;
     color: white;
+    padding: 20px;
+    margin: 0;
 }
 .text {
-    display: inline-flexbox;
     margin: auto;
+    display: inline-flexbox;
     width: 400px;
     height: 450px;
     /* padding: 35px; */
@@ -192,6 +181,9 @@ h1 {
     letter-spacing: 1px;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 21px;
 }
 .text img {
     width: 250px;
@@ -211,25 +203,20 @@ h1 {
     height: 50px;
     padding: 15px;
 }
-.video {
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .project-div {
     text-align: center;
     margin: auto;
-}
-.project-h3 {
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 25px;
-    color: white;
+    padding: 20px;
 }
 .project-showcase { 
     margin: auto;
-    font: 15px;
+    font-size: 21px;
     color: white;
     text-decoration: none;
+}
+.video {
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
