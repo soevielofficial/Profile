@@ -8,12 +8,13 @@
     <link rel="icon" type="image/x-icon" href="image\icon.png">
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="https://kit.fontawesome.com/ecd8cd0ee3.js" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
     
     <title>soevielofficial</title>
 
-    <!-- Version: 1.3
+    <!-- Version: 1.4
     Author: @soevielofficial
     Github: https://github.com/soevielofficial
     E-mail: soevielofficial@gmail.com -->
@@ -48,7 +49,14 @@
             </div>
             <div class="text">
                 <img src="image\banner image.png">
-                <p>Hi, I'm soevielofficial</p>
+                <p id="intro"></p>
+                <script>
+                    new TypeIt("#intro", {
+                        strings: "Hi, I'm soevielofficial.",
+                        speed: 50,
+                        waitUntilVisible: true,
+                        }).go();
+                </script>
             </div>
         </div>
     </div>
@@ -60,12 +68,11 @@
                 <img src="logo\c.png">
                 <img src="logo\logo-javascript.png">
                 <img src="logo\python-5.png">
-                <img src="logo\css-3.png">
-                <img src="logo\html-1.png">
             </div>
             <h3 class="project-h3">My Project:</h3>
             <div class="project-div">
                 <a class="project-showcase" href='https://github.com/soevielofficial/soevielofficial-bot' target="_blank">soevielofficial-bot</a>
+                <a class="project-showcase" href='https://github.com/soevielofficial/fps-monitoring' target="_blank">fps-monitoring</a>
             </div>
             <div class="video">
                 <iframe width="420" height="220" src="https://www.youtube.com/embed/Ac-3V-otoTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
