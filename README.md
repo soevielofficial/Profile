@@ -2,13 +2,11 @@
 <p align="center" width="100%">
     <img height="175px" src="https://i.imgur.com/W6mUoiN.png" alt="profile">
 </p>
-
-# Assets Source
+## Assets Source
 
 <!-- Image Background Source: [Wallpapper Engine](https://steamcommunity.com/sharedfiles/filedetails/?id=2795211854)<br> -->
 Image Profile: [Lin](https://www.toweroffantasy-global.com/images/Lin-a.jpg)
-
-# Terms of Use
+## Terms of Use
 
 You are free to borrow, modify, copy, use the functions written in the project, and so on. However, please don't change some words, pictures, colors and tell others that this is your work.
 
