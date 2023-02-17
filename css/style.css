@@ -1,4 +1,4 @@
-/* Version: 1.5
+/* Version: 1.6
 Author: @soevielofficial
 Github: https://github.com/soevielofficial
 E-mail: soevielofficial@gmail.com */
@@ -112,7 +112,8 @@ h1 {
 }
 #home, #about, #skills {
     height: 100%;
-    padding-top: 55px;
+    display: flex;
+    /* justify-content: center; */
     margin-left: 160px;
 }
 .profile {
@@ -159,7 +160,7 @@ h1 {
 }
 .about {
     width: 500px;
-    height: 600px;
+    height: 500px;
     box-shadow: -10px 10px 20px 0px #202225;
     background: #2F3136;
     border-radius: 5px;
@@ -186,7 +187,6 @@ h1 {
     display: inline-flexbox;
     width: 400px;
     height: 450px;
-    padding: 35px;
 }
 .text p {
     letter-spacing: 1px;
@@ -197,7 +197,7 @@ h1 {
     font-size: 21px;
 }
 .text img {
-    width: 250px;
+    width: 200px;
     height: auto;
     margin: auto;
     display: block;
