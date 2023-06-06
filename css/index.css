@@ -141,6 +141,8 @@ section div>p {
 }
 
 #kali-highlights h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
     text-align: center
 }
 
