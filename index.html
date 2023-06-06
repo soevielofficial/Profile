@@ -1,79 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="image/x-icon" href="./image/icon.png">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
-    <script src="https://kit.fontawesome.com/ecd8cd0ee3.js" crossorigin="anonymous"></script>
-    <script src="./js/index.js"></script>
-    
-    <title>soevielofficial</title>
-</head>
-<body class="loading-process unselectable">
-    <div class="sidebar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <p class="footer">&copy; soevielofficial</p>
-    </div>
-    <div id="home">
-        <!-- <h1>Home</h1> -->
-        <div class="profile">
-            <img class="avatar" src="image\profile.png">
-            <p>My Status:</p>
-            <img class="discord loading-process-discord" src="https://lanyard.cnrad.dev/api/442224069899976707?theme=dark&amp;hideDiscrim=true">
-            <div class="logo">
-                <p>Connections:</p>
-                <a class="logo-pad" href="https://github.com/soevielofficial" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <!-- <a class="logo-pad" href="https://www.linkedin.com/in/tarikhputrasanjaya/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> -->
-                <a class="logo-pad" href="https://discord.com/users/4422240698999767067" target="_blank"><i class="fa-brands fa-discord"></i></a>
-            </div>
-        </div>
-    </div>
-    <div id="about">
-        <!-- <h1>About</h1> -->
-        <div class="about">
-            <div class="intro">
-                <h3 class="intro-h3">About Me</h3>
-            </div>
-            <div class="text">
-                <img src="image\banner image.png">
-                <p id="intro"></p>
-                <script>
-                    new TypeIt("#intro", {
-                        strings: ["Hi,", "I'm soevielofficial.", "I'm currently focusing on reverse engineering."],
-                        speed: 75,
-                        waitUntilVisible: true,
-                        loop: true
-                        }).go();
-                </script>
-            </div>
-        </div>
-    </div>
-    <div id="skills">
-        <!-- <h1>Skills</h1> -->
-        <div class="skills">
-            <div class="language">
-                <h3 class="language-h3">Working on:</h3>
-                <img src="logo\c.png">
-                <img src="logo\logo-javascript.png">
-                <img src="logo\python-5.png">
-            </div>
-            <h3 class="project-h3"> Check out my repository:</h3>
-            <div class="project-div">
-                <a class="project-showcase" href='https://github.com/soevielofficial/soevielofficial-bot' target="_blank">Lin</a>
-                <a class="project-showcase" href='https://github.com/soevielofficial/DLL-Injector' target="_blank">DLL-Injector</a>
-                <a class="project-showcase" href='https://github.com/soevielofficial/Manual-Mapping' target="_blank">Manual-Mapping</a>
-            </div>
-            <div class="video">
-                <iframe width="420" height="220" src="https://www.youtube.com/embed/Ac-3V-otoTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+  <script type="text/javascript">
+  switch(navigator.language.substring(0,2))
+  {
+      case 'zh':window.location="zh.html";break;
+      case 'id':window.location="id.html";break;
+      default:window.location="en.html";break;
+  }
+  </script>
+  </head>

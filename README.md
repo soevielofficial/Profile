@@ -1,20 +1,16 @@
-<h2 align="center">Simple Web Profile<h2>
+<div align=center>
+<img src="https://github.com/Bkebi-Group/Bkebi-GC-Release/raw/main/.github/logo.svg" width="520"/>
+</div>
 
-<p align="center" width="100%">
-    <a target="_blank" href="https://ko-fi.com/soevielofficial"><img height="175px" style="border-radius:5px" src="https://i.imgur.com/3MGFecZ.png" alt="kofi" /></a>
+<p align="center">
+	<a href="https://github.com/Bkebi-Group/Bkebi-GC-Release/releases/latest"><img src="https://img.shields.io/github/v/release/Bkebi-Group/Bkebi-GC-Release?style=for-the-badge"></a>
+	<a href="https://github.com/Bkebi-Group/Bkebi-GC-Release/releases"><img src="https://img.shields.io/github/downloads/Bkebi-Group/Bkebi-GC-Release/total.svg?style=for-the-badge"></a>
+	<a href="https://discord.gg/bkebi"><img src="https://img.shields.io/discord/1026295403282436097?label=Discord&logo=discord&style=for-the-badge&color=blueviolet"></a>
 </p>
-<!-- <p align="center" width="100%">
-    <img height="175px" src="https://i.imgur.com/W6mUoiN.png" alt="profile">
-</p> -->
 
-## Assets Source
 
-<!-- Image Background Source: [Wallpapper Engine](https://steamcommunity.com/sharedfiles/filedetails/?id=2795211854)<br> -->
+# Bkebi-GC Website
 
-Image Profile: [Lin](https://www.toweroffantasy-global.com/images/Lin-a.jpg)
+**[Join our discord!](https://discord.gg/bkebi)**
 
-## Terms of Use
-
-You are free to borrow, modify, copy, use the functions written in the project, and so on. However, please don't change some words, pictures, colors and tell others that this is your work.
-
-If you have problems with the source code, you can contact me [@Discord](https://discord.com/users/442224069899976707)
+[Visit website](https://Bkebi-Group.github.io)
