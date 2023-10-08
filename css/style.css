@@ -971,7 +971,7 @@ article>h2 {
 
 #posts article,
 section#content {
-    margin: auto
+    margin: center
 }
 
 article p:empty,
