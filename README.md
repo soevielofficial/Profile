@@ -1,4 +1,4 @@
-<h2 align="center">soevielofficial's personal website<h2>
+<h3 align="center">soevielofficial's personal website<h3>
 
 <p align="center" width="100%">
     <a target="_blank" href="https://ko-fi.com/soevielofficial"><img height="175px" style="border-radius:5px" src="https://cdn.discordapp.com/attachments/862008488502755330/1115241341253853256/image_github.png" alt="kofi" /></a>
