@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #367BF0;
+    --primary-color: #46EFA2;
     --body-color: #f9f9f9;
     --text-color: #636363;
     --text-color-dark: #242738;
@@ -103,7 +103,7 @@ section [class*=" ti-"] {
 section {
     height: 100vh;
     width: 100vw;
-    padding-top: 20em;
+    /* box-shadow: 0 -30px 80px 0 var(--primary-color) */
 }
 
 @media(max-width:700px) {
@@ -158,36 +158,15 @@ section div>p {
 #kali-highlights>div {
     margin: auto;
     width: 90%;
-    max-width: 700px
-}
-
-#kali-highlights figure {
-    position: relative;
-    max-width: 1340px;
-    margin: 60px auto 100px;
-    width: 90%
-}
-
-#kali-highlights figure img:first-child {
-    width: 107%;
-    margin-top: -2.5%;
-    margin-left: -3.5%;
-    height: auto
-}
-
-#kali-highlights figure img:last-child {
-    position: absolute;
-    width: 84%;
-    left: 8%;
-    border-radius: 4px;
-    top: 2%
+    max-width: 1200px;
+    padding: 300px 300px 0 300px
 }
 
 #kali-highlights ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1110px;
+    max-width: 1200px;
     margin: auto
 }
 
@@ -195,7 +174,7 @@ section div>p {
     width: 370px;
     line-height: 1.8;
     padding: 20px 20px 0;
-    text-align: left
+    text-align: justify
 }
 
 #kali-highlights li::before {
@@ -204,7 +183,8 @@ section div>p {
 
 @media(max-width:760px) {
     #kali-highlights h3 {
-        display: none
+        display: none;
+        margin-left: 100px;
     }
 
     #kali-highlights ul,
@@ -220,213 +200,4 @@ section div>p {
         padding-left: 0;
         padding-right: 0
     }
-}
-
-#kali-tools>div {
-    text-align: center;
-    max-width: 1080px;
-    margin: auto;
-    position: relative
-}
-
-#kali-tools h4 {
-    font-weight: 700
-}
-
-#kali-tools>div::after,
-#kali-tools>div::before {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 40px;
-    top: 0;
-    z-index: 1
-}
-
-#kali-tools>div::before {
-    left: 0;
-    background-image: linear-gradient(to right, var(--white-color), rgba(255, 255, 255, 0))
-}
-
-#kali-tools>div::after {
-    right: 0;
-    background-image: linear-gradient(to left, var(--white-color), rgba(255, 255, 255, 0))
-}
-
-#kali-tools>div a {
-    flex-shrink: 0;
-    width: 17vw;
-    max-width: 180px;
-    min-width: 80px;
-    font-size: 16px;
-    color: inherit !important
-}
-
-#kali-tools>div a>img {
-    height: 67%;
-    width: 67%;
-    transition: .4s transform ease;
-    margin-bottom: 15px;
-    transform-origin: bottom center
-}
-
-#kali-tools>div a:hover>img {
-    transform: scale(1.2)
-}
-
-@media(max-width:740px) {
-    #kali-tools p {
-        text-align: left;
-        font-size: 16px
-    }
-
-    #kali-tools>div::before,
-    #kali-tools>div::after {
-        display: none
-    }
-
-    #kali-tools>div a {
-        font-size: 0
-    }
-
-    #kali-tools>div a>img {
-        width: 80%;
-        height: 80%
-    }
-
-    #kali-tools h2,
-    #kali-tools h4 {
-        text-align: left
-    }
-}
-
-#carousel {
-    overflow: auto;
-    padding: 20px 0;
-    scrollbar-width: none;
-    user-select: none
-}
-
-#carousel::-webkit-scrollbar {
-    display: none
-}
-
-#carousel>div {
-    transition: transform 1s ease;
-    display: flex;
-    will-change: transform
-}
-
-#kali-everywhere {
-    background: url(../img/background.png);
-    background-size: cover;
-    background-position: 50%;
-    text-shadow: 0 1px 5px rgba(0, 0, 0, .2)
-}
-
-#kali-everywhere h5 {
-    text-align: center
-}
-
-#kali-everywhere p {
-    font-size: 16px;
-    max-width: 360px;
-    margin: auto
-}
-
-#kali-everywhere>div {
-    display: flex;
-    margin-top: 60px;
-    max-width: 1600px;
-    margin: auto;
-    --width: calc(33.33vw - 32px);
-    justify-content: space-around
-}
-
-#kali-everywhere>div>div {
-    width: var(--width)
-}
-
-#kali-everywhere figure {
-    margin: 80px auto 50px;
-    width: var(--width);
-    height: calc(var(--width) * .6)
-}
-
-#kali-everywhere figure#nethunter-demo {
-    margin-top: 0 !important;
-    height: calc(var(--width) * 1.5);
-    width: 72%
-}
-
-@media(min-width:1600px) {
-    #kali-everywhere>div {
-        --width: 500px
-    }
-}
-
-@media(max-width:640px) {
-    #kali-everywhere {
-        background-image: none
-    }
-
-    #kali-everywhere>div {
-        margin-top: 0;
-        flex-direction: column;
-        --width: 90vw
-    }
-
-    #kali-everywhere>div>div {
-        margin: auto
-    }
-
-    #kali-everywhere>div>div:not(:last-child) {
-        margin-bottom: 40px
-    }
-
-    #kali-everywhere figure {
-        margin-top: 0;
-        margin-bottom: 40px
-    }
-}
-
-#kali-everywhere ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-shadow: none;
-    margin: auto;
-    margin-top: 100px;
-    max-width: 1200px
-}
-
-#kali-everywhere ul img {
-    width: 160px;
-    float: left;
-    margin-left: -34px
-}
-
-#kali-everywhere ul h3 {
-    font-size: 21px;
-    font-weight: 700;
-    width: 100px;
-    margin: 68px 40px 0 -10px;
-    float: right
-}
-
-#kali-everywhere li {
-    font-size: 12px;
-    width: 300px;
-    padding: 0 20px;
-    margin: 20px 0
-}
-
-#kali-everywhere ul li::before {
-    display: none
-}
-
-#kali-everywhere li div {
-    clear: both;
-    text-align: justify
 }
