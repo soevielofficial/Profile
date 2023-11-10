@@ -380,36 +380,6 @@ header.bg-cover::before {
     }
 }
 
-#posts article,
-section#content {
-    margin: center
-}
-
-article p:empty,
-section#content p:empty,
-article p a:empty,
-section#content p a:empty {
-    display: none !important
-}
-
-section#content {
-    margin-top: 60px
-}
-
-section#content table,
-section#content table td,
-section#content table th {
-    border: 0
-}
-
-section#content table thead {
-    background: 0 0
-}
-
-section#content table thead {
-    color: var(--text-color-dark)
-}
-
 footer {
     background: #000;
     font-size: 14px
@@ -464,7 +434,7 @@ footer a svg {
 
     footer .container div {
         flex: unset;
-        width: 200px;
+        width: 10px;
         margin: 0 auto;
         padding-left: 50px;
         box-sizing: content-box

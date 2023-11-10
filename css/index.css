@@ -164,14 +164,13 @@ section div>p {
 
 #kali-highlights ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
     margin: auto
 }
 
 #kali-highlights li {
-    width: 370px;
+    width: 400px;
     line-height: 1.8;
     padding: 20px 20px 0;
     text-align: justify
