@@ -334,7 +334,7 @@ pre code::-webkit-scrollbar-thumb {
     font-size: 10px;
     letter-spacing: .2em;
     text-align: center;
-    padding-top: 20px
+    padding-top: 15px
 }
 
 .darkmode-switch .switch {
@@ -399,23 +399,18 @@ footer .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    line-height: 1,5em;
-    letter-spacing: 1,5px;
-    padding: 50px
+    letter-spacing: 2px;
+    padding: 0 50px 15px 50px
 }
 
 footer .container div {
     flex: 1;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 #footer-logo {
     max-width: 50%;
     display: block
-}
-
-footer h4 {
-    margin: 1.2em 0
 }
 
 footer a {
@@ -424,7 +419,6 @@ footer a {
 
 footer a svg {
     height: 20px;
-    vertical-align: sub
 }
 
 @media(max-width:1400px) {
@@ -436,7 +430,6 @@ footer a svg {
         flex: unset;
         width: 10px;
         margin: 0 auto;
-        padding-left: 50px;
         box-sizing: content-box
     }
 

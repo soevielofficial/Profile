@@ -170,14 +170,14 @@ section div>p {
     display: flex;
     justify-content: center;
     max-width: 1200px;
-    margin: auto
+    margin: auto;
 }
 
 #kali-highlights li {
     width: 400px;
     line-height: 1.8;
     padding: 20px 20px 0;
-    text-align: justify
+    text-align: center
 }
 
 #kali-highlights li::before {
