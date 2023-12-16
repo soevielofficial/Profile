@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #46EFA2;
+    --primary-color: #CEA9D9;
     --body-color: #f9f9f9;
     --text-color: #636363;
     --text-color-dark: #242738;
@@ -136,13 +136,13 @@ section h1 {
 section h2,
 section h3,
 section h4 {
-    font-weight: 400
+    font-weight: 600
 }
 
 section>p,
 section div>p {
     font-size: 19px;
-    line-height: 1.8
+    line-height: 3
 }
 
 #kali-highlights h1 {
