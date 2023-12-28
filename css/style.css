@@ -29,7 +29,7 @@
 html,
 body {
     line-height: 1.5;
-    font-family: var(--font-family), Cantarell, sans-serif;
+    font-family: var(--font-family);
     color: var(--text-color);
     background-color: var(--body-color);
     overflow-x: hidden;
@@ -124,59 +124,6 @@ ul li::before {
 ol {
     padding-left: 20px;
     font-size: 15px
-}
-
-details {
-    position: relative;
-    background: rgba(127, 127, 127, 5%);
-    padding: 1.2em;
-    border-radius: var(--border-radius);
-    box-shadow: 0 0 10px rgba(127, 127, 127, .3);
-    margin: 40px 0;
-    cursor: pointer;
-    font-size: .9em
-}
-
-details summary {
-    display: block;
-    font-size: 1.2em;
-    text-shadow: 0 0 1px
-}
-
-details summary::after {
-    display: block;
-    content: '\e64b';
-    font-family: themify;
-    position: absolute;
-    top: .7em;
-    right: 1em;
-    font-size: 1.2em;
-    text-shadow: 0 0 1px
-}
-
-details[open] summary::after {
-    content: '\e648'
-}
-
-details summary~div {
-    padding-top: .6em
-}
-
-blockquote {
-    color: var(--text-color-dark);
-    padding: 5px 40px;
-    border-left: 2px solid var(--primary-color);
-    margin: 40px 0;
-    background: rgba(127, 127, 127, 5%)
-}
-
-blockquote p {
-    font-size: 18px
-}
-
-img {
-    vertical-align: middle;
-    border: 0
 }
 
 a,
