@@ -281,7 +281,7 @@ pre code::-webkit-scrollbar-thumb {
     font-size: 10px;
     letter-spacing: .2em;
     text-align: center;
-    padding-top: 15px
+    padding-top: 10px
 }
 
 .darkmode-switch .switch {
@@ -347,112 +347,12 @@ footer .container {
     justify-content: space-between;
     flex-wrap: wrap;
     letter-spacing: 2px;
-    padding: 0 50px 0px 50px
+    padding: 0 50px 5px 50px
 }
 
 footer .container div {
     flex: 1;
     max-width: 300px;
-}
-
-#footer-logo {
-    max-width: 50%;
-    display: block
-}
-
-footer a {
-    display: block
-}
-
-footer a svg {
-    height: 20px;
-}
-
-@media(max-width:1400px) {
-    footer .container {
-        max-width: 900px
-    }
-
-    footer .container div {
-        flex: unset;
-        width: 10px;
-        margin: 0 auto;
-        box-sizing: content-box
-    }
-
-    footer .container div:last-child {
-        width: 100%;
-        margin: 60px auto
-    }
-}
-
-.hljs-title,
-.hljs-name {
-    color: #ffc730
-}
-
-.hljs-comment,
-.hljs-meta,
-.hljs-meta .hljs-keyword {
-    color: #49aee6
-}
-
-.hljs-number,
-.hljs-symbol,
-.hljs-literal,
-.hljs-deletion,
-.hljs-link {
-    color: #bf2e5d
-}
-
-.hljs-string,
-.hljs-doctag,
-.hljs-addition,
-.hljs-regexp,
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-    color: #5ebdab
-}
-
-.hljs-attribute,
-.hljs-code,
-.hljs-selector-id {
-    color: #d41919
-}
-
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-bullet,
-.hljs-tag {
-    color: #367bf0
-}
-
-.hljs-subst,
-.hljs-variable,
-.hljs-template-tag,
-.hljs-template-variable {
-    color: #8c42ab
-}
-
-.hljs-type,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-quote,
-.hljs-section,
-.hljs-selector-class {
-    color: #fea44c
-}
-
-.hljs-emphasis {
-    font-style: italic
-}
-
-.hljs-strong {
-    font-weight: 700
-}
-
-.hljs-prompt {
-    color: #47d4b9
 }
 
 .language-console {
